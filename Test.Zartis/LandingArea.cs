@@ -27,8 +27,8 @@ namespace Test.Zartis
         {
             if(width <= 1) return (false, "width not valid, should be higher than 1");
             if(height <= 1) return (false, "height not valid, should be higher than 1");
-            if((landingPlatform.StartPoint.X+ landingPlatform.Width) > width) return (false, "Landing Platrofr could not be placed.");
-            if((landingPlatform.StartPoint.Y+ landingPlatform.Height) > height  ) return (false, "Landing Platrofr could not be placed.");
+            if((landingPlatform.StartPoint.X+ landingPlatform.Width) > width) return (false, "Landing Platrofrm could not be placed.");
+            if((landingPlatform.StartPoint.Y+ landingPlatform.Height) > height  ) return (false, "Landing Platrofrm could not be placed.");
             return (true,string.Empty);
         }
 
